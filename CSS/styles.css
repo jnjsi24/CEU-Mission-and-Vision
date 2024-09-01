@@ -1,0 +1,91 @@
+
+/* Body */
+body {
+    font-family: 'Nunito Sans'; 
+    padding: 0;
+    background: url('../Images/CEU.png') no-repeat center center fixed; 
+    background-size: cover;
+    color: #333; 
+}
+
+/* Header */
+header {
+    background-color: #261c66; 
+    color: #ffffff; 
+    padding: 0px; 
+    text-align: center; 
+    position: fixed; 
+    width: 100%; 
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+/* Header image */
+.header-image {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 165px auto 20px; 
+    padding: 20px;
+    background-color: rgba(241, 80, 147, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+/* Header Titles */
+h1, h2, h3 {
+    font-family: 'Nunito Sans'; 
+    font-weight: bold;
+    color: #21135f; 
+    margin-bottom: 20px; 
+    font-size: 1.75em; 
+}
+
+/* All Details */
+p, ul li {
+    color: #ffffff; 
+    font-size: 1.2em;
+}
+
+/* Mission Details */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; 
+    margin: 0; 
+    padding-left: 20px; 
+}
+
+/* Mission Bullets */
+ul li:before {
+    content: "•";
+    color: #21135f; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Auto adjust size */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 70px auto; 
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5em; 
+    }
+
+    p, ul li {
+        font-size: 1.1em;
+    }
+}
